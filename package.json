@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server for play",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daleoooo/server.git"
+  },
+  "keywords": [
+    "server",
+    "play"
+  ],
+  "author": "daleoooo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daleoooo/server/issues"
+  },
+  "homepage": "https://github.com/daleoooo/server#readme",
+  "devDependencies": {
+    "koa": "^2.0.0-alpha.8",
+    "koa-router": "^7.0.1",
+    "koa-static": "^3.0.0"
+  }
+}
